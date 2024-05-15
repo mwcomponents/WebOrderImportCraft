@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: P:\Synergy\VMAWS Custom Apps\WebOrderImportCraft\WebOrderImportCraft.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1C2210C-E201-47BA-928A-B26506C8A436}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>WebOrderImportCraft</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <ApplicationVersion>1000.510.8894.24695</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="Synergy.DistributedERP.Server">
+      <HintPath>lib\Synergy.DistributedERP.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="SynergyBusinessObjects">
+      <HintPath>lib\SynergyBusinessObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alias.cs" />
+    <Compile Include="CenturyShippingInfo.cs" />
+    <Compile Include="CSCExtendedAPI.cs" />
+    <Compile Include="CSCExtendedAPICustomShipping.cs" />
+    <Compile Include="CSCExtendedAPIKeyval.cs" />
+    <Compile Include="CSCExtendedAPILot.cs" />
+    <Compile Include="CustomerOrderSelector.cs" />
+    <Compile Include="CustomerSelector.cs" />
+    <Compile Include="CustomerValidate.cs" />
+    <Compile Include="DBInfo.cs" />
+    <Compile Include="Downloader.cs" />
+    <Compile Include="FreightSvcChg.cs" />
+    <Compile Include="HourGlass.cs" />
+    <Compile Include="CraftUtil.cs" />
+    <Compile Include="OrderImport.cs" />
+    <Compile Include="SiteCustCont.cs" />
+    <Compile Include="OrderSelectForm.cs" />
+    <Compile Include="OrderStatusDefault.cs" />
+    <Compile Include="PrefixMap.cs" />
+    <Compile Include="1PrefixMap.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="QuoteImport.cs" />
+    <Compile Include="RAFParts.cs" />
+    <Compile Include="SalesShippingInfo.cs" />
+    <Compile Include="SiteDBMap.cs" />
+    <Compile Include="SmallOrderSvcChg.cs" />
+    <Compile Include="TaxSvcChg.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="CraftQuotes.cs" />
+    <Compile Include="Quote.cs" />
+    <Compile Include="QuoteUpdateReq.cs" />
+    <Compile Include="Datecompleted.cs" />
+    <Compile Include="QLineitem.cs" />
+    <Compile Include="QLineUpdate.cs" />
+    <Compile Include="QOptions.cs" />
+    <Compile Include="QItemPrice.cs" />
+    <Compile Include="CraftSalesOrder.cs" />
+    <Compile Include="1CraftSalesOrder.cs" />
+    <Compile Include="2CraftSalesOrder.cs" />
+    <Compile Include="3CraftSalesOrder.cs" />
+    <Compile Include="4CraftSalesOrder.cs" />
+    <Compile Include="5CraftSalesOrder.cs" />
+    <Compile Include="6CraftSalesOrder.cs" />
+    <Compile Include="7CraftSalesOrder.cs" />
+    <Compile Include="8CraftSalesOrder.cs" />
+    <Compile Include="9CraftSalesOrder.cs" />
+    <Compile Include="10CraftSalesOrder.cs" />
+    <Compile Include="11CraftSalesOrder.cs" />
+    <Compile Include="12CraftSalesOrder.cs" />
+    <Compile Include="13CraftSalesOrder.cs" />
+    <Compile Include="14CraftSalesOrder.cs" />
+    <Compile Include="15CraftSalesOrder.cs" />
+    <Compile Include="16CraftSalesOrder.cs" />
+    <Compile Include="17CraftSalesOrder.cs" />
+    <Compile Include="18CraftSalesOrder.cs" />
+    <Compile Include="19CraftSalesOrder.cs" />
+    <Compile Include="20CraftSalesOrder.cs" />
+    <Compile Include="CraftSalesOrder2.cs" />
+    <Compile Include="1CraftSalesOrder2.cs" />
+    <Compile Include="2CraftSalesOrder2.cs" />
+    <Compile Include="3CraftSalesOrder2.cs" />
+    <Compile Include="4CraftSalesOrder2.cs" />
+    <Compile Include="5CraftSalesOrder2.cs" />
+    <Compile Include="6CraftSalesOrder2.cs" />
+    <Compile Include="7CraftSalesOrder2.cs" />
+    <Compile Include="8CraftSalesOrder2.cs" />
+    <Compile Include="9CraftSalesOrder2.cs" />
+    <Compile Include="10CraftSalesOrder2.cs" />
+    <Compile Include="11CraftSalesOrder2.cs" />
+    <Compile Include="12CraftSalesOrder2.cs" />
+    <Compile Include="13CraftSalesOrder2.cs" />
+    <Compile Include="14CraftSalesOrder2.cs" />
+    <Compile Include="15CraftSalesOrder2.cs" />
+    <Compile Include="MsgBox.cs" />
+    <Compile Include="SRISupport\logger.cs" />
+    <Compile Include="SRISupport\logMessage.cs" />
+    <Compile Include="SRISupport\logMsgList.cs" />
+    <Compile Include="SRISupport\UserMessage Batch.cs" />
+    <Compile Include="SRISupport\UserMessage.cs" />
+    <Compile Include="SRISupport\UserMessageForm.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebOrderImportCraft\CustomerOrderSelector.resx" />
+    <EmbeddedResource Include="WebOrderImportCraft\CustomerSelector.resx" />
+    <EmbeddedResource Include="WebOrderImportCraft\CustomerValidate.resx" />
+    <EmbeddedResource Include="WebOrderImportCraft\DBInfo.resx" />
+    <EmbeddedResource Include="WebOrderImportCraft\OrderSelectForm.resx" />
+    <EmbeddedResource Include="WebOrderImportCraft\Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
